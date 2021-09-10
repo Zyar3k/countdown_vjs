@@ -21,6 +21,7 @@ body {
 .countdownWrapper {
   padding: 30px;
   font-size: 30px;
+  width: 50vw;
 }
 
 .countdownWrapper ul {
@@ -32,8 +33,18 @@ body {
 
 .countdownWrapper li {
   padding: 20px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .countdownWrapper li span {
   margin-right: 10px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.emoji {
+  display: none;
 }
