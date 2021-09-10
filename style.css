@@ -1,3 +1,39 @@
 body {
-  background-color: khaki;
+  background-color: rgb(27, 27, 25);
+  color: white;
+  font-family: "Urbanist", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.container h1 {
+  font-size: 60px;
+  letter-spacing: 4px;
+}
+
+.countdownWrapper {
+  padding: 30px;
+  font-size: 30px;
+}
+
+.countdownWrapper ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.countdownWrapper li {
+  padding: 20px;
+}
+
+.countdownWrapper li span {
+  margin-right: 10px;
 }
